@@ -1,0 +1,44 @@
+[
+    {
+      "id": 0,
+      "price": 20,
+      "picture": "https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Coffee"
+    },
+    {
+      "id": 1,
+      "price": 100,
+      "picture": "https://images.pexels.com/photos/4491395/pexels-photo-4491395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "SandWise"
+    },
+    {
+      "id": 2,
+      "price": 120,
+      "picture": "https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Pasta"
+    },
+    {
+      "id": 3,
+      "price": 150,
+      "picture": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Burger"
+    },
+    {
+      "id": 4,
+      "price": 220,
+      "picture": "https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Beef"
+    },
+    {
+      "id": 5,
+      "price": 130,
+      "picture": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Fish"
+    },
+    {
+      "id": 5,
+      "price": 311,
+      "picture": "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Pizza"
+    }
+  ]
