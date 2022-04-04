@@ -1,6 +1,11 @@
 import React from "react";
+import LoadProducts from "../../Hooks/LoadProducts";
+import CardFood from "../CardFood/CardFood";
 
 const Home = () => {
+  const [products, setProducts] = LoadProducts();
+  const { name, picture, price, rating } = products;
+
   return (
     <>
       <div className="grid justify-center items-center grid-cols-2">
@@ -29,19 +34,13 @@ const Home = () => {
           />
         </div>
       </div>
-
-      <h2 className="mt-20 mb-4 text-4xl">Customer Review</h2>
-      <div className="grid md:grid-cols-3">
-        <div className="card border-2 rounded">
-          <h2>head</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus veritatis rerum at quis ex ea quas minus illum
-            doloremque fugiat?
-          </p>
-          <p><small>Rating</small></p>
-          <button>Show more review</button>
-        </div>
+      <h2 className="mt-20 mb-4 text-4xl">
+        Customer Review ( {products.length} )
+      </h2>
+      <div className="grid md:grid-cols-3 w-3/4 m-auto">
+        {products.map((product) => (
+          <CardFood key={product.id} product={product}></CardFood>
+        ))}
       </div>
     </>
   );
