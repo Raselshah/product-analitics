@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="grid justify-center items-center grid-cols-2">
+      <div className="grid justify-center items-center grid-cols-1 md:grid-cols-2">
         <div className="">
           <h2 className="text-orange-500 mb-5 text-5xl">
             Hey are you food lover
@@ -28,11 +28,11 @@ const Home = () => {
             eveniet non iste repellat itaque sed, assumenda officiis, commodi
             ipsum nemo!
           </p>
-          <button className="py-3 px-6 rounded bg-indigo-400 mt-5">
+          <button className="py-3 px-6 rounded text-white bg-indigo-400 mt-5">
             Love With Food
           </button>
         </div>
-        <div className="h-3/4 m-auto">
+        <div className="m-auto mt-10">
           <img
             className="h-[70vh] rounded"
             src="https://images.pexels.com/photos/8104576/pexels-photo-8104576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

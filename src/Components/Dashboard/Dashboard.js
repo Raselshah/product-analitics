@@ -100,6 +100,7 @@ const Dashboard = () => {
             fill="#82ca9d"
             fillOpacity={0.6}
           />
+          <Tooltip />
           <Legend />
         </RadarChart>
       </div>
