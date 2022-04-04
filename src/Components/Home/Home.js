@@ -1,12 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import LoadProducts from "../../Hooks/LoadProducts";
 import CardFood from "../CardFood/CardFood";
 
 const Home = () => {
   const [products] = LoadProducts();
 
+  const navigate = useNavigate();
   const handleReview = () => {
-    console.log("hey");
+    const path = "/review";
+    navigate(path);
   };
 
   return (
