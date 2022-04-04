@@ -2,50 +2,57 @@
     {
       "id": 0,
       "price": 20,
-      "picture": "https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "name": "Coffee",
+      "picture": "https://cdn.britannica.com/56/199056-050-CCC44482/Jeff-Bezos-2017.jpg",
+      "name": "Jeff Bezos",
+      "comment" : "this food was very testy",
       "rating": 4.5
     },
     {
       "id": 1,
       "price": 100,
-      "picture": "https://images.pexels.com/photos/4491395/pexels-photo-4491395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "name": "SandWise",
+      "picture": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc5OTk2ODUyMTMxNzM0ODcy/gettyimages-1229892983-square.jpg",
+      "name": "Elon Musk",
+      "comment" : "this food was very testy",
       "rating": 3.5
     },
     {
       "id": 2,
       "price": 120,
-      "picture": "https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "name": "Pasta",
+      "picture": "https://cdn.britannica.com/47/188747-050-1D34E743/Bill-Gates-2011.jpg",
+      "name": "Bill Gates",
+      "comment" : "this food was very testy",
       "rating": 4.0
     },
     {
       "id": 3,
       "price": 150,
-      "picture": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "name": "Burger",
+      "picture": "https://www.whatsnewlife.com/wp-content/uploads/2018/04/mark-jukerburg.jpg",
+      "name": "Mark Zuckerberg",
+      "comment" : "this food was very testy",
       "rating": 3.0
     },
     {
       "id": 4,
       "price": 220,
-      "picture": "https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "name": "Beef",
+      "picture": "https://static01.nyt.com/images/2020/04/27/us/politics/00-trump-cand-page/00-trump-cand-page-superJumbo.jpg",
+      "name": "Donald Trump",
+      "comment" : "this food was very testy",
       "rating": 5.0
     },
     {
       "id": 5,
       "price": 130,
-      "picture": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "name": "Fish",
+      "picture": "https://m.media-amazon.com/images/M/MV5BMzhhNTJhYmEtMjk5Yy00OTc0LTlmMTgtZTU5YTFiMmNjMTFiXkEyXkFqcGdeQXVyNjMwOTA1MDM@._V1_UY264_CR3,0,178,264_AL_.jpg",
+      "name": "Vladimir Putin",
+      "comment" : "this food was very testy",
       "rating": 4.5
     },
     {
       "id": 6,
       "price": 311,
-      "picture": "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "name": "Pizza",
+      "picture": "https://phototass2.cdnvideo.ru/width/1020_b9261fa1/tass/m2/en/uploads/i/20211129/1341265.jpg",
+      "name": "Zelensky",
+      "comment" : "this food was very testy",
       "rating": 3.5
     }
   ]

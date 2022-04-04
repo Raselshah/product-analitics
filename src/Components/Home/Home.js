@@ -3,8 +3,11 @@ import LoadProducts from "../../Hooks/LoadProducts";
 import CardFood from "../CardFood/CardFood";
 
 const Home = () => {
-  const [products, setProducts] = LoadProducts();
-  const { name, picture, price, rating } = products;
+  const [products] = LoadProducts();
+
+  const handleReview = () => {
+    console.log("hey");
+  };
 
   return (
     <>
@@ -37,11 +40,18 @@ const Home = () => {
       <h2 className="mt-20 mb-4 text-4xl">
         Customer Review ( {products.length} )
       </h2>
-      <div className="grid md:grid-cols-3 w-3/4 m-auto">
+      <div className="grid md:grid-cols-3 mb-5 gap-6 w-3/4 m-auto">
         {products.map((product) => (
           <CardFood key={product.id} product={product}></CardFood>
         ))}
       </div>
+
+      <button
+        onClick={() => handleReview()}
+        className="bg-indigo-400 px-4 py-2 mb-4 rounded text-white text-lg"
+      >
+        Show more review
+      </button>
     </>
   );
 };
