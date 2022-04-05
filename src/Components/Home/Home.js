@@ -14,8 +14,8 @@ const Home = () => {
 
   return (
     <>
-      <div className="grid justify-center items-center grid-cols-1 md:grid-cols-2">
-        <div className="">
+      <div className="grid justify-center items-center grid-cols-1 md:grid-cols-2 w-3/4 m-auto">
+        <div className="text-left">
           <h2 className="text-orange-500 mb-5 text-5xl">
             Hey are you food lover
           </h2>
@@ -23,10 +23,11 @@ const Home = () => {
             Please Order your favorite foods
           </h2>
           <p className="text-lg text-gray-500 mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint animi
-            impedit quis nam numquam quaerat distinctio libero at corrupti
-            eveniet non iste repellat itaque sed, assumenda officiis, commodi
-            ipsum nemo!
+            While it may not be the most popular dining brand in the country,
+            the King is still a top choice for many. Those Whoppers are still as
+            tasty as ever, especially if you go for the Impossible Whopper. Want
+            to chow down on more juicy hamburgers? Here's where you can get The
+            Absolute Best Burger in Every State.
           </p>
           <button className="py-3 px-6 rounded text-white bg-indigo-400 mt-5">
             Love With Food
@@ -44,7 +45,7 @@ const Home = () => {
         Customer Review ( {products.length} )
       </h2>
       <div className="grid md:grid-cols-3 mb-5 gap-6 w-3/4 m-auto">
-        {products.map((product) => (
+        {products.slice(0, 3).map((product) => (
           <CardFood key={product.id} product={product}></CardFood>
         ))}
       </div>

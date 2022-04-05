@@ -4,7 +4,7 @@
       "price": 20,
       "picture": "https://cdn.britannica.com/56/199056-050-CCC44482/Jeff-Bezos-2017.jpg",
       "name": "Jeff Bezos",
-      "comment" : "this food was very testy",
+      "comment" : "This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and wonderful dessert. I recommend to everyone! I would like to come back here again and again.",
       "rating": 4.5
     },
     {
@@ -12,7 +12,7 @@
       "price": 100,
       "picture": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc5OTk2ODUyMTMxNzM0ODcy/gettyimages-1229892983-square.jpg",
       "name": "Elon Musk",
-      "comment" : "this food was very testy",
+      "comment" : "It’s a great experience. The ambiance is very welcoming and charming. Amazing wines, food and service. Staff are extremely knowledgeable and make great recommendations.",
       "rating": 3.5
     },
     {
@@ -20,7 +20,7 @@
       "price": 120,
       "picture": "https://cdn.britannica.com/47/188747-050-1D34E743/Bill-Gates-2011.jpg",
       "name": "Bill Gates",
-      "comment" : "this food was very testy",
+      "comment" : "This place is great! Atmosphere is chill and cool but the staff is also really friendly. They know what they’re doing and what they’re talking about, and you can tell making the customers happy is their main priority. Food is pretty good, some italian classics and some twists, and for their prices it’s 100% worth it.",
       "rating": 4.0
     },
     {
@@ -28,7 +28,7 @@
       "price": 150,
       "picture": "https://www.whatsnewlife.com/wp-content/uploads/2018/04/mark-jukerburg.jpg",
       "name": "Mark Zuckerberg",
-      "comment" : "this food was very testy",
+      "comment" : "Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining. It can be expensive but worth it and they do different deals on different nights so it’s worth checking them out before you book. Highly recommended.",
       "rating": 3.0
     },
     {
@@ -36,7 +36,7 @@
       "price": 220,
       "picture": "https://static01.nyt.com/images/2020/04/27/us/politics/00-trump-cand-page/00-trump-cand-page-superJumbo.jpg",
       "name": "Donald Trump",
-      "comment" : "this food was very testy",
+      "comment" : "We are so fortunate to have this place just a few minutes drive away from home. Food is stunning, both the tapas and downstairs restaurant. Cocktails wow, wine great and lovely selection of beers. Love this place and will continue to visit.",
       "rating": 5.0
     },
     {
@@ -44,7 +44,7 @@
       "price": 130,
       "picture": "https://m.media-amazon.com/images/M/MV5BMzhhNTJhYmEtMjk5Yy00OTc0LTlmMTgtZTU5YTFiMmNjMTFiXkEyXkFqcGdeQXVyNjMwOTA1MDM@._V1_UY264_CR3,0,178,264_AL_.jpg",
       "name": "Vladimir Putin",
-      "comment" : "this food was very testy",
+      "comment" : " First time in (RN) and YOU have to go! It’s the cutest little spot with amazing food. The (FN) is to die for. IT WAS FIRE!! The service we received was so amazing and we will definitely be back again. They made us feel welcomed and gave us an amazing experience.",
       "rating": 4.5
     },
     {
@@ -52,7 +52,7 @@
       "price": 311,
       "picture": "https://phototass2.cdnvideo.ru/width/1020_b9261fa1/tass/m2/en/uploads/i/20211129/1341265.jpg",
       "name": "Zelensky",
-      "comment" : "this food was very testy",
+      "comment" : "I have to say, I enjoyed every single bite of the meal in (RN). I had a 3 course meal, with a couple of beers. Considering the quality, the price is reasonable. Ideal for those who want a romantic night out. There was also plenty of room for bigger groups.",
       "rating": 3.5
     }
   ]

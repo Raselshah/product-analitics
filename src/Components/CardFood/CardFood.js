@@ -4,7 +4,7 @@ const CardFood = ({ product }) => {
   const { name, picture, rating, comment } = product;
   return (
     <>
-      <div className="border rounded p-2">
+      <div className="border rounded p-2 text-left">
         <p className="flex justify-start items-center">
           Rating : <small>{rating} </small> star
         </p>

@@ -23,42 +23,42 @@ const Dashboard = () => {
     {
       month: "Mar",
       investment: 100000,
-      sell: 241,
+      sell: 2441,
       revenue: 10401,
     },
     {
       month: "Apr",
       investment: 200000,
-      sell: 423,
+      sell: 4423,
       revenue: 24500,
     },
     {
       month: "May",
       investment: 500000,
-      sell: 726,
+      sell: 7246,
       revenue: 67010,
     },
     {
       month: "Jun",
       investment: 500000,
-      sell: 529,
+      sell: 5219,
       revenue: 40405,
     },
     {
       month: "Jul",
       investment: 600000,
-      sell: 601,
+      sell: 6011,
       revenue: 50900,
     },
     {
       month: "Aug",
       investment: 700000,
-      sell: 670,
+      sell: 6170,
       revenue: 61000,
     },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 mt-10 m-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 mt-10 w-5/6 m-auto">
       <div className="mb-10">
         <LineChart width={400} height={400} data={data}>
           <Line type="monotone" dataKey="sell" stroke="#8884d8"></Line>
@@ -70,7 +70,7 @@ const Dashboard = () => {
       </div>
 
       <div className="mb-10">
-        <BarChart width={500} height={400} data={data}>
+        <BarChart width={400} height={400} data={data}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="month" />
           <YAxis />
@@ -82,7 +82,7 @@ const Dashboard = () => {
       </div>
 
       <div className="mb-10">
-        <RadarChart outerRadius={90} width={500} height={250} data={data}>
+        <RadarChart outerRadius={90} width={400} height={250} data={data}>
           <PolarGrid />
           <PolarAngleAxis dataKey="month" />
           <PolarRadiusAxis angle={30} domain={[0, 150]} />
@@ -106,7 +106,7 @@ const Dashboard = () => {
       </div>
 
       <div className="mb-10">
-        <ComposedChart width={500} height={250} data={data}>
+        <ComposedChart width={400} height={250} data={data}>
           <XAxis dataKey="month" />
           <YAxis />
           <Tooltip />
@@ -119,7 +119,7 @@ const Dashboard = () => {
             stroke="#8884d8"
           />
           <Bar dataKey="investment" barSize={20} fill="#413ea0" />
-          <Line type="monotone" dataKey="revenue" stroke="#ff7300" />
+          <Line type="monotone" dataKey="sell" stroke="#ff7300" />
         </ComposedChart>
       </div>
     </div>
