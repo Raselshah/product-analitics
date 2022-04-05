@@ -7,6 +7,7 @@ Mainly customer review feedback display in the UI.
 secondly demo with react rechart
 
 ### `Live Server`
+https://unique-panda-f7eff3.netlify.app/
 
 ### `Technology use`
 
